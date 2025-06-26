@@ -12,7 +12,13 @@ abstract public class Food implements Discountable {
     }
 
     public double getTotalPrice() {
+
         return price * amount;
     }
+    public boolean isVegetarian() {
+        return isVegetarian;
+    }
+
+
 
 }
