@@ -9,7 +9,7 @@ public class ShoppingCart {
 public ShoppingCart(Food[] foods) {
     this.foods = foods;
 }
-
+//f
 public double getTotalPriceWithoutDiscount() {
     double totalPrice = 0;
 
