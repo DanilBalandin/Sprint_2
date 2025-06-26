@@ -1,9 +1,7 @@
 package com.practicum.sprint_2;
 
-import com.practicum.sprint_2.model.constants.Colour;
-import com.practicum.sprint_2.model.constants.Discount;
+
 import com.practicum.sprint_2.model.Apple;
-import com.practicum.sprint_2.model.Discountable;
 import com.practicum.sprint_2.model.Food;
 import com.practicum.sprint_2.model.Meat;
 import com.practicum.sprint_2.service.ShoppingCart;
