@@ -2,5 +2,5 @@ package com.practicum.sprint_2.model;
 
 public interface Discountable {
 
-    public double getDiscount();
+    double getDiscount();
 }
