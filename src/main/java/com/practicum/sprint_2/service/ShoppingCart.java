@@ -31,7 +31,7 @@ public double getTotalPriceForVegetarianFood() {
     double totalPrice = 0;
     for (Food food : foods) {
     if (food.isVegetarian()) {
-        totalPrice += food.getTotalPrice() * (1 - food.getDiscount() / 100);
+        totalPrice += food.getTotalPrice();
             }
         }
     return totalPrice;
